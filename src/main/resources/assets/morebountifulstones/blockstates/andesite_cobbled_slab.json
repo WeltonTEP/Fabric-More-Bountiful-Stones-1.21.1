@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "morebountifulstones:block/andesite_cobbled_slab",
-    "side": "morebountifulstones:block/andesite_cobbled_slab",
-    "top": "morebountifulstones:block/andesite_cobbled_slab"
+  "variants": {
+    "type=bottom": {
+      "model": "morebountifulstones:block/andesite_cobbled_slab"
+    },
+    "type=double": {
+      "model": "morebountifulstones:block/andesite_cobbled"
+    },
+    "type=top": {
+      "model": "morebountifulstones:block/andesite_cobbled_slab_top"
+    }
   }
 }

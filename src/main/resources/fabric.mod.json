@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "more-bountiful-stones",
+	"id": "morebountifulstones",
 	"version": "${version}",
 	"name": "More Bountiful Stones",
 	"description": "Rememeber 1.8 the Bountiful Update adding andesite, diorite, and granite? This mod adds more chiseled variants to every stone type and new stones.",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/WeltonTEP/Fabric-More_Bountiful_Stones-1.21.1"
 	},
 	"license": "MIT",
-	"icon": "assets/more-bountiful-stones/icon.png",
+	"icon": "assets/morebountifulstones/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"more-bountiful-stones.mixins.json"
+		"morebountifulstones.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
