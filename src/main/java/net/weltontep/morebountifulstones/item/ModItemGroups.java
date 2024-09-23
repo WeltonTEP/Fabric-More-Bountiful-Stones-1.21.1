@@ -1,6 +1,7 @@
 package net.weltontep.morebountifulstones.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_COBBLED_STAIRS);
                         entries.add(ModBlocks.ANDESITE_COBBLED_SLAB);
                         entries.add(ModBlocks.ANDESITE_COBBLED_WALL);
+                        entries.add(Blocks.ANDESITE);
+                        entries.add(Blocks.ANDESITE_SLAB);
+                        entries.add(Blocks.ANDESITE_STAIRS);
+                        entries.add(Blocks.ANDESITE_WALL);
+                        entries.add(Blocks.POLISHED_ANDESITE);
+                        entries.add(Blocks.POLISHED_ANDESITE_STAIRS);
+                        entries.add(Blocks.POLISHED_ANDESITE_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_BUTTON);
                         entries.add(ModBlocks.ANDESITE_POLISHED_PRESSURE_PLATE);
@@ -27,6 +35,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_SMOOTH_STAIRS);
                         entries.add(ModBlocks.ANDESITE_SMOOTH_SLAB);
                         entries.add(ModBlocks.ANDESITE_SMOOTH_WALL);
+                        entries.add(ModBlocks.ANDESITE_SMOOTH_CRACKED);
+                        entries.add(ModBlocks.ANDESITE_SMOOTH_CRACKED_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_SMOOTH_CRACKED_SLAB);
+                        entries.add(ModBlocks.ANDESITE_SMOOTH_CRACKED_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_LARGE_BRICKS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_LARGE_BRICK_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_LARGE_BRICK_SLAB);
@@ -119,6 +131,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANK_PILLAR_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANK_PILLAR_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANK_PILLAR_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PILLAR);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PILLAR_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PILLAR_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PILLAR_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILES);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_SLAB);
@@ -131,6 +147,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED_SLAB);

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "morebountifulstones:andesite_smooth"
+  },
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:andesite_smooth_wall"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "morebountifulstones:andesite_cobbled"
+  },
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:andesite_cobbled_stairs"
+  }
+}

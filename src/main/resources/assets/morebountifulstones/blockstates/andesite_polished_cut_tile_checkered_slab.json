@@ -4,7 +4,7 @@
       "model": "morebountifulstones:block/andesite_polished_cut_tile_checkered_slab"
     },
     "type=double": {
-      "model": "morebountifulstones:block/andesite_polished_cut_tiles_checkered_cracked"
+      "model": "morebountifulstones:block/andesite_polished_cut_tiles_checkered"
     },
     "type=top": {
       "model": "morebountifulstones:block/andesite_polished_cut_tile_checkered_slab_top"
