@@ -12,10 +12,10 @@ import net.weltontep.morebountifulstones.MoreBountifulStones;
 import net.weltontep.morebountifulstones.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup MORE_BOUNTIFUL_STONES_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup MORE_BOUNTIFUL_ANDESITE_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MoreBountifulStones.MOD_ID, "more_bountiful_stones"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ANDESITE_COBBLED))
-                    .displayName(Text.translatable("itemgroup.morebountifulstones.more_bountiful_stones"))
+                    .displayName(Text.translatable("itemgroup.morebountifulstones.more_bountiful_andesite"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ANDESITE_COBBLED);
                         entries.add(ModBlocks.ANDESITE_COBBLED_STAIRS);
@@ -111,14 +111,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_BRAIDED2);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_PINWHEEL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_PINWHEEL2);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_ROAD);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_ROAD2);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD2_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD2_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_BRICK_ROAD2_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANKS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANK_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_PLANK_SLAB);
@@ -139,10 +151,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_WALL);
-                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILES_CHECKERED);
-                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_CHECKERED_STAIRS);
-                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_CHECKERED_SLAB);
-                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_CHECKERED_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILES_DIAMOND);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_DIAMOND_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_DIAMOND_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_DIAMOND_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CUT_TILE_PILLAR_SLAB);
@@ -151,6 +163,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR2);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR2_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR2_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_PILLAR2_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_TWISTED_SLAB);
@@ -159,10 +175,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_GREEK_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_GREEK_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_GREEK_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PILLAR);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PILLAR_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PILLAR_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PILLAR_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE_SLAB);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE_WALL);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE2);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE2_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE2_SLAB);
+                        entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE2_WALL);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PYRAMID);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PYRAMID_STAIRS);
                         entries.add(ModBlocks.ANDESITE_POLISHED_CHISELED_PYRAMID_SLAB);

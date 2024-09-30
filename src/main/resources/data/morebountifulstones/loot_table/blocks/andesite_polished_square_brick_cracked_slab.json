@@ -26,6 +26,22 @@
                   }
                 }
               ],
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "morebountifulstones:andesite_polished_square_brick_cracked_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
               "name": "morebountifulstones:andesite_polished_square_brick_cracked_slab"
             },
             {
@@ -35,8 +51,28 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "morebountifulstones:andesite_polished_square_brick_cracked_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
               "name": "morebountifulstones:andesite_cobbled_slab"
             }
+            
           ]
         }
       ],

@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "morebountifulstones",
-	"version": "${version}",
+	"version": "0.0.1",
 	"name": "More Bountiful Stones",
-	"description": "Rememeber 1.8 the Bountiful Update adding andesite, diorite, and granite? This mod adds more chiseled variants to every stone type and new stones.",
+	"description": "Rememeber 1.8 the Bountiful Update adding andesite, diorite, and granite? This mod adds more chiseled variants to every stone type and new stones. Use silk touch on the stone variants to keep them or recycle them back to the cobbled variant.",
 	"authors": [
 		"WeltonTEP"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/WeltonTEP/Fabric-More_Bountiful_Stones-1.21.1"
 	},
-	"license": "MIT",
+	"license": "None",
 	"icon": "assets/morebountifulstones/icon.png",
 	"environment": "*",
 	"entrypoints": {

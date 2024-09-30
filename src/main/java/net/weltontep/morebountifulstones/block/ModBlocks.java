@@ -360,6 +360,22 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block ANDESITE_POLISHED_CUT_BRICKS_BRAIDED2 = registerBlock("andesite_polished_cut_bricks_braided2",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_STAIRS = registerBlock("andesite_polished_cut_brick_braided2_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_BRAIDED2.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_SLAB = registerBlock("andesite_polished_cut_brick_braided2_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_BRAIDED2_WALL = registerBlock("andesite_polished_cut_brick_braided2_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block ANDESITE_POLISHED_CUT_BRICKS_PINWHEEL = registerBlock("andesite_polished_cut_bricks_pinwheel",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -376,6 +392,22 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block ANDESITE_POLISHED_CUT_BRICKS_PINWHEEL2 = registerBlock("andesite_polished_cut_bricks_pinwheel2",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_STAIRS = registerBlock("andesite_polished_cut_brick_pinwheel2_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_PINWHEEL2.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_SLAB = registerBlock("andesite_polished_cut_brick_pinwheel2_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_PINWHEEL2_WALL = registerBlock("andesite_polished_cut_brick_pinwheel2_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block ANDESITE_POLISHED_CUT_BRICKS_ROAD = registerBlock("andesite_polished_cut_bricks_road",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -389,6 +421,22 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block ANDESITE_POLISHED_CUT_BRICK_ROAD_WALL = registerBlock("andesite_polished_cut_brick_road_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICKS_ROAD2 = registerBlock("andesite_polished_cut_bricks_road2",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_ROAD2_STAIRS = registerBlock("andesite_polished_cut_brick_road2_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CUT_BRICKS_ROAD2.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_ROAD2_SLAB = registerBlock("andesite_polished_cut_brick_road2_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CUT_BRICK_ROAD2_WALL = registerBlock("andesite_polished_cut_brick_road2_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
@@ -472,19 +520,19 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block ANDESITE_POLISHED_CUT_TILES_CHECKERED = registerBlock("andesite_polished_cut_tiles_checkered",
+    public static final Block ANDESITE_POLISHED_CUT_TILES_DIAMOND = registerBlock("andesite_polished_cut_tiles_diamond",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block ANDESITE_POLISHED_CUT_TILE_CHECKERED_STAIRS = registerBlock("andesite_polished_cut_tile_checkered_stairs",
-            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CUT_TILES_CHECKERED.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+    public static final Block ANDESITE_POLISHED_CUT_TILE_DIAMOND_STAIRS = registerBlock("andesite_polished_cut_tile_diamond_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CUT_TILES_DIAMOND.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block ANDESITE_POLISHED_CUT_TILE_CHECKERED_SLAB = registerBlock("andesite_polished_cut_tile_checkered_slab",
+    public static final Block ANDESITE_POLISHED_CUT_TILE_DIAMOND_SLAB = registerBlock("andesite_polished_cut_tile_diamond_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block ANDESITE_POLISHED_CUT_TILE_CHECKERED_WALL = registerBlock("andesite_polished_cut_tile_checkered_wall",
+    public static final Block ANDESITE_POLISHED_CUT_TILE_DIAMOND_WALL = registerBlock("andesite_polished_cut_tile_diamond_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
@@ -517,6 +565,22 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block ANDESITE_POLISHED_PILLAR_WALL = registerBlock("andesite_polished_pillar_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_PILLAR2 = registerBlock("andesite_polished_pillar2",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_PILLAR2_STAIRS = registerBlock("andesite_polished_pillar2_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_PILLAR2.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_PILLAR2_SLAB = registerBlock("andesite_polished_pillar2_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_PILLAR2_WALL = registerBlock("andesite_polished_pillar2_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
@@ -565,6 +629,38 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block ANDESITE_POLISHED_CHISELED_ORNATE_WALL = registerBlock("andesite_polished_chiseled_ornate_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_ORNATE2 = registerBlock("andesite_polished_chiseled_ornate2",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_ORNATE2_STAIRS = registerBlock("andesite_polished_chiseled_ornate2_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE2.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_ORNATE2_SLAB = registerBlock("andesite_polished_chiseled_ornate2_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_ORNATE2_WALL = registerBlock("andesite_polished_chiseled_ornate2_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_PILLAR = registerBlock("andesite_polished_chiseled_pillar",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_PILLAR_STAIRS = registerBlock("andesite_polished_chiseled_pillar_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_POLISHED_CHISELED_ORNATE.getDefaultState(), AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_PILLAR_SLAB = registerBlock("andesite_polished_chiseled_pillar_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ANDESITE_POLISHED_CHISELED_PILLAR_WALL = registerBlock("andesite_polished_chiseled_pillar_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 

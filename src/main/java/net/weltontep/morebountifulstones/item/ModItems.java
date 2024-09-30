@@ -7,10 +7,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.weltontep.morebountifulstones.MoreBountifulStones;
+import net.weltontep.morebountifulstones.item.custom.EmeraldPaxel;
 
 public class ModItems {
 
-    public static final Item EMERALD_PAXEL = registerItem("emerald_paxel", new Item(new Item.Settings()));
+    public static final Item EMERALD_PAXEL = registerItem("emerald_paxel", new EmeraldPaxel(new Item.Settings().maxDamage(1561)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreBountifulStones.MOD_ID, name), item);

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "morebountifulstones:andesite_polished_cut_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "morebountifulstones:andesite_polished_cut_bricks_braided"
+  }
+}
